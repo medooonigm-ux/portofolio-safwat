@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Abdulrahman Mohamed - Full Stack Developer and Cyber Security Enthusiast portfolio."
+    />
+    <title>Abdulrahman Mohamed | Cyber Security Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Abdulrahman Mohamed home">
+        <span>Abdulrahman Mohamed</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Cyber Security Portfolio</p>
+          <h1><span>Abdulrahman</span> Mohamed</h1>
+          <p class="hero-title">Full Stack Developer & Cyber Security Enthusiast</p>
+          <p class="hero-copy">
+            Building secure web experiences and network solutions with a sharp eye for clean
+            interfaces, strong infrastructure, and practical defense-minded engineering.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <aside class="profile-card reveal" aria-label="Abdulrahman Mohamed profile photo">
+          <figure class="profile-frame">
+            <img src="./abdulrahman-profile.jpg" alt="Abdulrahman Mohamed" />
+          </figure>
+        </aside>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Profile</p>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-copy reveal">
+            <p>
+              I am a student at the Faculty of Computers and Information with a growing focus on
+              Web Development, Cyber Security, and practical networking systems.
+            </p>
+            <p>
+              Alongside my studies, I work as a Networking Instructor at Huawei, helping students
+              understand modern network design, configuration, and troubleshooting.
+            </p>
+          </div>
+          <div class="cert-grid reveal">
+            <article>
+              <span>01</span>
+              <h3>Kian Academy</h3>
+              <p>Programming Fundamentals certification.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Huawei Networking</h3>
+              <p>Networking certification and instructor experience.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Capabilities</p>
+          <h2>Technical Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal"><span>HTML</span></div>
+          <div class="skill-card reveal"><span>CSS</span></div>
+          <div class="skill-card reveal"><span>Java</span></div>
+          <div class="skill-card reveal"><span>C++</span></div>
+          <div class="skill-card reveal"><span>C#</span></div>
+          <div class="skill-card reveal"><span>.NET</span></div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-icon">NET</div>
+            <h3>Enterprise Network Infrastructure Design</h3>
+            <p>
+              Structured enterprise-grade network planning focused on scalability, segmentation,
+              performance, and secure connectivity.
+            </p>
+            <span>Network Architecture</span>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-icon">CPT</div>
+            <h3>Cisco Packet Tracer Network Design</h3>
+            <p>
+              Practical simulation of routers, switches, VLANs, routing protocols, and tested
+              packet flow across network layers.
+            </p>
+            <span>Simulation</span>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-icon">UMS</div>
+            <h3>University Management System</h3>
+            <p>
+              Full stack system concept for managing students, courses, records, and academic
+              workflows through a clean web interface.
+            </p>
+            <span>Full Stack</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Transmission</p>
+          <h2>Contact</h2>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-info reveal">
+            <a href="mailto:abdomsafwat111@gmail.com">abdomsafwat111@gmail.com</a>
+            <a href="tel:+201033014202">01033014202</a>
+            <p>Available for web development, networking, and cyber security opportunities.</p>
+          </div>
+          <form class="contact-form reveal">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="your@email.com" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" placeholder="Write your message" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Abdulrahman Mohamed. Secure by design.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
